@@ -1,0 +1,187 @@
+@font-face {
+    font-family: GLight;
+    src: url("GothamHTF-Light.otf") format("opentype");
+}
+@font-face {
+    font-family: GMedium;
+    src: url("GothamHTF-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: GBlack;
+    src: url("GothamHTF-Black.otf") format("opentype");
+}
+@font-face {
+    font-family: GUltra;
+    src: url("GothamHTF-Ultra.otf") format("opentype");
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    background-color: #fff200;
+    
+    font-family: GMedium, Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+
+a {
+    outline: 0px;
+    font-family: GBlack, Verdana, Tahoma, sans-serif;
+}
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#wrapper {
+    text-align: center;
+    width: auto;
+    max-width: 480px;
+    margin: auto;
+}
+
+#header {
+    margin-top: 60px;
+}
+
+#header a#logo {
+    display: block;
+    font-size: 24px;
+    line-height: 24px;
+    width: 240px;
+    margin: auto;
+    margin-bottom: 4px;
+    padding: 20px 0px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+#header a#logo em {
+    font-style: normal;
+    color: #FFF200;
+}
+#header a#logo:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#header a#sublogo {
+    font-size: 18px;
+}
+
+#compete {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#compete #competearea {
+    height: 240px;
+    width: 480px;
+}
+
+#compete #competearea a {
+    width: 230px;
+    height: 230px;
+    overflow: hidden;
+    display: block;
+    background-color: #FFf200;
+    border: 5px solid #fff200;
+    display: block;
+}
+
+#compete #competearea a img {
+    min-width: 230px;
+    min-height: 230px;
+}
+
+#compete #competearea a:hover {
+    opacity: 0.6;
+}
+
+#compete #competearea a#leftlink {
+    float: left;
+}
+#compete #competearea a#rightlink {
+    float: right;
+}
+
+#compete #whois {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 16px;
+    height: 16px;
+    width: 200px;
+    padding: 8px 4px;
+    display: inline-block;
+    transform: rotate(-15deg) skewX(-15deg);
+    font-family: GLight, Verdana, Tahoma, sans-serif;
+    position: relative;
+        top: -130px;
+}
+
+@media (max-width: 479px) {
+    #compete #competearea {
+        width: 240px;
+        height: 480px;
+        margin: auto;
+    }
+    
+    #compete #competearea a{
+        display: block;
+    }
+
+    #compete #competearea a#leftlink {
+        float: none;
+    }
+    #compete #competearea a#rightlink {
+        float: none;
+    }
+    
+    #compete #whois {
+        top: -250px;
+    }
+}
+
+#footer {
+    font-size: 10px;
+    line-height: 16px;
+}
+
+#footer #clock {
+    font-family: GUltra, Verdana, Tahoma, sans-serif;
+    width: 240px;
+    margin: auto;
+    margin-top: 8px;
+    font-size: 40px;
+    line-height: 40px;
+    padding: 16px 0px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#footer #links {
+    font-family: GBlack, Verdana, Tahoma, sans-serif;
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 16px;
+}

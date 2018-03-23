@@ -1,0 +1,1 @@
+<?php  header( 'Location: http://www.uwmash.me/ladies.html' ) ;  ?>
